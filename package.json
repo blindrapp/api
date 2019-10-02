@@ -1,0 +1,14 @@
+{
+  "name": "bilndr-api",
+  "version": "1.0.0",
+  "description": "RESTful API for the blindr project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edgar Yerena",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
