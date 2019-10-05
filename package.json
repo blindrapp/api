@@ -4,11 +4,18 @@
   "description": "RESTful API for the blindr project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "Edgar Yerena",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "@hapi/joi": "^16.1.6",
+    "bcrypt": "^3.0.6",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.3"
   }
 }
